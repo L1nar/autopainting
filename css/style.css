@@ -12,6 +12,108 @@
     }
 
     .container {
-        max-width: 1170px;
+        max-width: 1450px;
         margin: 0 auto;
+    }
+
+    .header {
+        font-family: 'Arial';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 18px;
+        display: flex;
+        border-bottom: solid 2px #FFFFFF;
+    }
+
+    .header__container {
+        display: flex;
+        justify-content: space-between;
+        flex: 1;
+    }
+
+    .header__logo {
+        margin-left: 30px;
+    }
+
+    .logo__img {
+    }
+
+    .nav {
+    }
+
+    .nav__list {
+        margin-top: 30px;
+        list-style: none;
+        display: flex;
+    }
+
+    .nav__item {
+        margin-right: 35px;
+    }
+
+    .nav__link {
+        color: #FFFFFF;
+    }
+
+    .contacts__location {
+        display: flex;
+        align-items: center;
+        margin-right: 50px;
+    }
+
+    .contacts {
+        display: flex;
+        align-items: center;
+    }
+
+    .location__img {
+        margin-right: 5px ;
+        height: 15px;
+        width: 15px;
+    }
+    
+    .location {
+        color: #FFFFFF;
+    }
+
+    .phone {
+        margin-right: 50px;
+        color: #FFFFFF;
+    }
+
+    .main {
+    }
+
+    .hero {
+    }
+
+    .hero__main {
+    }
+
+    .title {
+    }
+
+    .hero__subtitle {
+    }
+
+    .hero__btns {
+    }
+
+    .btn {
+    }
+
+    .hero__call-to-action {
+    }
+
+    .hero__advantages {
+    }
+
+    .advantage {
+    }
+
+    .advantage__img {
+    }
+
+    .advantage__desc {
     }
