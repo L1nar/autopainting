@@ -41,12 +41,16 @@ p {
 
 .wrapper {
     min-height: 100%;
+    position: relative;
 }
 
 .header {
-    background-color: chocolate;
     padding: 16px 0px 4px;
     border-bottom: 2px solid #FFFFFF;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
 }
 
 .container {
@@ -115,10 +119,14 @@ p {
 }
 
 .hero {
-    background-color: crimson;
+    height: 100vh;
+    background: url(../img/background/hero_bg.png) no-repeat top left/cover;
+    padding-top: 272px;
+    color: #FFFFFF;
 }
 
 .hero__main {
+
 }
 
 .title {
@@ -128,24 +136,44 @@ p {
 }
 
 .hero__btns {
+    display: flex;
+    column-gap: 20px;
 }
 
 .btn {
+    border-radius: 4px;
+    background: none;
+    min-width: 170px;
+    padding: 12px 16px;
 }
 
-.hero__call-to-action {
+.btn_theme_white {
+    border: 2px solid #FFFFFF;
+    color: #FFFFFF;
+}
+
+.hero__call-to-action span {
+    color: #ed7173;
 }
 
 .advantages {
+    display: flex;
+    padding: 0px 20px 0px 20px;
+    column-gap: 30px;
+    justify-content: space-between;
 }
 
 .advantage {
+    border-radius: 4px;
+    text-align: center;
+    padding: 16px 20px;
 }
 
 .hero__advantage {
 }
 
 .advantage_theme_transparent {
+    border: 2px solid #FFFFFF;
 }
 
 .advantage__img {
