@@ -204,6 +204,7 @@ margin-bottom: 50px;
 .hero__btns {
     display: flex;
     column-gap: 20px;
+    color: #FFFFFF;
 }
 
 .btn {
@@ -304,4 +305,177 @@ margin-bottom: 50px;
     .burger {
         display: flex;
     }
+}
+
+/* Секция - about */
+
+.about {
+    padding: 62px 0px 90px;
+    font-size: 20px;
+}
+
+.about__container {
+    max-width: 992px;
+}
+
+.section-title {
+    font-weight: 700;
+font-size: 54px;
+line-height: 63px;
+text-align: center;
+color: #E7E7E7;
+margin-bottom: 10px;
+}
+
+.section-subtitle {
+    font-weight: 400;
+font-size: 20px;
+line-height: 23px;
+text-align: center;
+margin-bottom: 20px;
+}
+
+.about__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    counter-reset: item-count;
+    row-gap: 45px;
+}
+
+.about__item {
+    max-width: 48%;
+    padding-top: 70px;
+    padding-left: 30px;
+    position: relative;
+}
+
+.about__item::before {
+    counter-increment: item-count;
+    color: #E7E7E7;
+    content: "0"counter(item-count);
+    font-weight: 700;
+    font-size: 100px;
+    line-height: 1;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.about__text {
+    position: relative;
+    z-index: 10;
+    font-weight: 400;
+    line-height: 23px;
+}
+
+/* Секция - advantages */
+
+.benefits {
+    padding: 62px 0px 90px;
+    background: url(../img/background/advantage_bg.png);
+}
+
+.benefit-title {
+    font-weight: 700;
+font-size: 54px;
+line-height: 63px;
+text-align: center;
+color: #FFFFFF;
+margin-bottom: 10px;
+}
+
+.benefit-subtitle {
+    font-weight: 400;
+font-size: 20px;
+line-height: 23px;
+text-align: center;
+color: #FFFFFF;
+margin-bottom: 60px;
+}
+
+.benefit__list {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.benefit__item {
+    background-color: #FFFFFF;
+    border-radius: 4px;
+    width: 211px;
+    height: 211px;
+}
+
+.benefit__img {
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.benefit__text {
+    font-weight: 400;
+font-size: 16px;
+line-height: 18px;
+text-align: center;
+color: #252525;
+}
+
+/* Секция - services */
+
+.services {
+    padding: 62px 0px 90px;
+    text-align: center;
+}
+
+.service__subtitle {
+    margin-bottom: 60px;
+}
+
+.service__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.service__item {
+    width: 265px;
+    height: 265px;
+    margin-bottom: 20px;
+    border: 2px solid #D4D4D4;
+    margin-bottom: 60px;
+    color: #252525;
+}
+
+.service__item:hover {
+    border: 2px solid #ED7173;
+    background: #ED7173;
+    border-radius: 4px;
+    color: white;
+}
+
+.service__img {
+    min-width: 100%;
+}
+
+.service__text {
+    font-weight: 400;
+font-size: 16px;
+line-height: 18px;
+text-align: center;
+}
+
+.service__btn {
+    border: 2px solid #D4D4D4;
+    font-weight: 400;
+font-size: 16px;
+line-height: 18px;
+color: #252525;
+border-radius: 4px;
+}
+
+.service__btn:hover {
+    border: 2px solid #ED7173;
+    background: #ED7173;
+    border-radius: 4px;
+    color: white;
 }
