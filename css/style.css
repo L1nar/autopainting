@@ -369,7 +369,7 @@ margin-bottom: 20px;
     line-height: 23px;
 }
 
-/* Секция - advantages */
+/* Секция - benefits */
 
 .benefits {
     padding: 62px 0px 90px;
@@ -403,8 +403,8 @@ margin-bottom: 60px;
 .benefit__item {
     background-color: #FFFFFF;
     border-radius: 4px;
-    width: 211px;
-    height: 211px;
+    min-height: 211px;
+    flex: 0 1 calc((100% - 64px) /5);
 }
 
 .benefit__img {
@@ -432,17 +432,16 @@ color: #252525;
 }
 
 .service__list {
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
 
 .service__item {
-    width: 265px;
-    height: 265px;
+    flex: 0 1 calc((100% - 60px) /4);
     margin-bottom: 20px;
     border: 2px solid #D4D4D4;
-    margin-bottom: 60px;
     color: #252525;
 }
 
@@ -454,7 +453,7 @@ color: #252525;
 }
 
 .service__img {
-    min-width: 100%;
+    object-fit: cover;
 }
 
 .service__text {
@@ -462,6 +461,7 @@ color: #252525;
 font-size: 16px;
 line-height: 18px;
 text-align: center;
+padding: 13px 0px;
 }
 
 .service__btn {
