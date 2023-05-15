@@ -1,0 +1,54 @@
+@media (max-width: 960px) {
+    .logo {
+        max-width: 181px;
+    }
+
+    .location {
+        display: none;
+    }
+
+    .container {
+        max-width: 898px;
+    }
+
+    .hero {
+        padding-top: 210px;
+    }
+
+    .hero__main {
+        padding-left: 73px;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        max-width: 725px;
+    }
+
+    .logo {
+        max-width: 142px;
+    }
+
+    .nav {
+        display: none;
+    }
+
+    .header__contacts {
+        display: none;
+    }
+
+    .hero::after {
+        content: "";
+        display: block;
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        top: 0;
+        left: 0;
+        background: linear-gradient(180deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0) 19.11%);
+    }
+
+    .burger {
+        display: flex;
+    }
+}
